@@ -3,7 +3,7 @@
 
 // I use my exercise 14 guestlist//
 
-let guestlist:Array<string> =[
+ let guestlist:Array<string> =[
     "Shawana",
     "Arisha",
     "Laiba",
@@ -31,3 +31,4 @@ console.log(`Second set of inviting message`)
 guestlist.forEach(( guest:string) =>
 { console.log( `Hi ${guest}, I am inviting you for dinner. `)}
 );
+
